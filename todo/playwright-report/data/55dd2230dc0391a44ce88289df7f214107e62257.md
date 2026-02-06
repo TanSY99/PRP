@@ -1,0 +1,334 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Todo App" [level=1] [ref=e5]
+        - paragraph [ref=e6]: Manage your tasks efficiently
+      - generic [ref=e8]:
+        - textbox "Add a new todo..." [ref=e10]
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic [ref=e13]: Priority
+            - combobox [ref=e14]:
+              - option "High"
+              - option "Medium" [selected]
+              - option "Low"
+          - generic [ref=e15]:
+            - generic [ref=e16]: Due Date & Time
+            - textbox [ref=e17]
+        - button "Add" [ref=e18]
+      - generic [ref=e20]:
+        - generic [ref=e21]: Filter by Priority
+        - combobox [ref=e22]:
+          - option "All Priorities" [selected]
+          - option "High Priority"
+          - option "Medium Priority"
+          - option "Low Priority"
+      - generic [ref=e25]:
+        - heading "Pending (36)" [level=2] [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e29]:
+            - checkbox [ref=e30] [cursor=pointer]
+            - generic [ref=e32]:
+              - heading "High Priority Task" [level=3] [ref=e33]
+              - generic [ref=e34]: High
+            - generic [ref=e35]:
+              - button "Edit" [ref=e36]
+              - button "Delete" [ref=e37]
+          - generic [ref=e39]:
+            - checkbox [ref=e40] [cursor=pointer]
+            - generic [ref=e42]:
+              - heading "High Priority Task" [level=3] [ref=e43]
+              - generic [ref=e44]: High
+            - generic [ref=e45]:
+              - button "Edit" [ref=e46]
+              - button "Delete" [ref=e47]
+          - generic [ref=e49]:
+            - checkbox [ref=e50] [cursor=pointer]
+            - generic [ref=e52]:
+              - heading "High Priority Todo" [level=3] [ref=e53]
+              - generic [ref=e54]: High
+            - generic [ref=e55]:
+              - button "Edit" [ref=e56]
+              - button "Delete" [ref=e57]
+          - generic [ref=e59]:
+            - checkbox [ref=e60] [cursor=pointer]
+            - generic [ref=e62]:
+              - heading "High Priority Todo" [level=3] [ref=e63]
+              - generic [ref=e64]: High
+            - generic [ref=e65]:
+              - button "Edit" [ref=e66]
+              - button "Delete" [ref=e67]
+          - generic [ref=e69]:
+            - checkbox [ref=e70] [cursor=pointer]
+            - generic [ref=e72]:
+              - heading "High Priority Task" [level=3] [ref=e73]
+              - generic [ref=e74]: High
+            - generic [ref=e75]:
+              - button "Edit" [ref=e76]
+              - button "Delete" [ref=e77]
+          - generic [ref=e79]:
+            - checkbox [ref=e80] [cursor=pointer]
+            - generic [ref=e82]:
+              - heading "High Priority Task" [level=3] [ref=e83]
+              - generic [ref=e84]: High
+            - generic [ref=e85]:
+              - button "Edit" [ref=e86]
+              - button "Delete" [ref=e87]
+          - generic [ref=e89]:
+            - checkbox [ref=e90] [cursor=pointer]
+            - generic [ref=e92]:
+              - heading "High Priority Task" [level=3] [ref=e93]
+              - generic [ref=e94]: High
+            - generic [ref=e95]:
+              - button "Edit" [ref=e96]
+              - button "Delete" [ref=e97]
+          - generic [ref=e99]:
+            - checkbox [ref=e100] [cursor=pointer]
+            - generic [ref=e102]:
+              - heading "High Priority Task" [level=3] [ref=e103]
+              - generic [ref=e104]: High
+            - generic [ref=e105]:
+              - button "Edit" [ref=e106]
+              - button "Delete" [ref=e107]
+          - generic [ref=e109]:
+            - checkbox [ref=e110] [cursor=pointer]
+            - generic [ref=e112]:
+              - heading "High Priority Task" [level=3] [ref=e113]
+              - generic [ref=e114]: High
+            - generic [ref=e115]:
+              - button "Edit" [ref=e116]
+              - button "Delete" [ref=e117]
+          - generic [ref=e119]:
+            - checkbox [ref=e120] [cursor=pointer]
+            - generic [ref=e122]:
+              - heading "High Priority Task" [level=3] [ref=e123]
+              - generic [ref=e124]: High
+            - generic [ref=e125]:
+              - button "Edit" [ref=e126]
+              - button "Delete" [ref=e127]
+          - generic [ref=e129]:
+            - checkbox [ref=e130] [cursor=pointer]
+            - generic [ref=e132]:
+              - heading "High Priority Task" [level=3] [ref=e133]
+              - generic [ref=e134]: High
+            - generic [ref=e135]:
+              - button "Edit" [ref=e136]
+              - button "Delete" [ref=e137]
+          - generic [ref=e139]:
+            - checkbox [ref=e140] [cursor=pointer]
+            - generic [ref=e142]:
+              - heading "Complete Test" [level=3] [ref=e143]
+              - generic [ref=e144]: High
+            - generic [ref=e145]:
+              - button "Edit" [ref=e146]
+              - button "Delete" [ref=e147]
+          - generic [ref=e149]:
+            - checkbox [ref=e150] [cursor=pointer]
+            - generic [ref=e152]:
+              - heading "High Priority Task" [level=3] [ref=e153]
+              - generic [ref=e154]: High
+            - generic [ref=e155]:
+              - button "Edit" [ref=e156]
+              - button "Delete" [ref=e157]
+          - generic [ref=e159]:
+            - checkbox [ref=e160] [cursor=pointer]
+            - generic [ref=e162]:
+              - heading "High Priority Task" [level=3] [ref=e163]
+              - generic [ref=e164]: High
+            - generic [ref=e165]:
+              - button "Edit" [ref=e166]
+              - button "Delete" [ref=e167]
+          - generic [ref=e169]:
+            - checkbox [ref=e170] [cursor=pointer]
+            - generic [ref=e172]:
+              - heading "High Priority Task" [level=3] [ref=e173]
+              - generic [ref=e174]: High
+            - generic [ref=e175]:
+              - button "Edit" [ref=e176]
+              - button "Delete" [ref=e177]
+          - generic [ref=e179]:
+            - checkbox [ref=e180] [cursor=pointer]
+            - generic [ref=e182]:
+              - heading "High Priority Task" [level=3] [ref=e183]
+              - generic [ref=e184]: High
+            - generic [ref=e185]:
+              - button "Edit" [ref=e186]
+              - button "Delete" [ref=e187]
+          - generic [ref=e189]:
+            - checkbox [ref=e190] [cursor=pointer]
+            - generic [ref=e192]:
+              - heading "High Priority Task" [level=3] [ref=e193]
+              - generic [ref=e194]: High
+            - generic [ref=e195]:
+              - button "Edit" [ref=e196]
+              - button "Delete" [ref=e197]
+          - generic [ref=e199]:
+            - checkbox [ref=e200] [cursor=pointer]
+            - generic [ref=e202]:
+              - heading "Complete Test" [level=3] [ref=e203]
+              - generic [ref=e204]: High
+            - generic [ref=e205]:
+              - button "Edit" [ref=e206]
+              - button "Delete" [ref=e207]
+          - generic [ref=e209]:
+            - checkbox [ref=e210] [cursor=pointer]
+            - generic [ref=e212]:
+              - heading "Test Task" [level=3] [ref=e213]
+              - generic [ref=e214]: High
+            - generic [ref=e215]:
+              - button "Edit" [ref=e216]
+              - button "Delete" [ref=e217]
+          - generic [ref=e219]:
+            - checkbox [ref=e220] [cursor=pointer]
+            - generic [ref=e222]:
+              - heading "Edit Priority Test" [level=3] [ref=e223]
+              - generic [ref=e224]: Medium
+            - generic [ref=e225]:
+              - button "Edit" [ref=e226]
+              - button "Delete" [ref=e227]
+          - generic [ref=e229]:
+            - checkbox [ref=e230] [cursor=pointer]
+            - generic [ref=e232]:
+              - heading "Medium Priority Task" [level=3] [ref=e233]
+              - generic [ref=e234]: Medium
+            - generic [ref=e235]:
+              - button "Edit" [ref=e236]
+              - button "Delete" [ref=e237]
+          - generic [ref=e239]:
+            - checkbox [ref=e240] [cursor=pointer]
+            - generic [ref=e242]:
+              - heading "Medium Priority Todo" [level=3] [ref=e243]
+              - generic [ref=e244]: Medium
+            - generic [ref=e245]:
+              - button "Edit" [ref=e246]
+              - button "Delete" [ref=e247]
+          - generic [ref=e249]:
+            - checkbox [ref=e250] [cursor=pointer]
+            - generic [ref=e252]:
+              - heading "Medium Priority Todo" [level=3] [ref=e253]
+              - generic [ref=e254]: Medium
+            - generic [ref=e255]:
+              - button "Edit" [ref=e256]
+              - button "Delete" [ref=e257]
+          - generic [ref=e259]:
+            - checkbox [ref=e260] [cursor=pointer]
+            - generic [ref=e262]:
+              - heading "Medium Priority Task" [level=3] [ref=e263]
+              - generic [ref=e264]: Medium
+            - generic [ref=e265]:
+              - button "Edit" [ref=e266]
+              - button "Delete" [ref=e267]
+          - generic [ref=e269]:
+            - checkbox [ref=e270] [cursor=pointer]
+            - generic [ref=e272]:
+              - heading "Medium Priority Task" [level=3] [ref=e273]
+              - generic [ref=e274]: Medium
+            - generic [ref=e275]:
+              - button "Edit" [ref=e276]
+              - button "Delete" [ref=e277]
+          - generic [ref=e279]:
+            - checkbox [ref=e280] [cursor=pointer]
+            - generic [ref=e282]:
+              - heading "Edit Priority Test" [level=3] [ref=e283]
+              - generic [ref=e284]: Medium
+            - generic [ref=e285]:
+              - button "Edit" [ref=e286]
+              - button "Delete" [ref=e287]
+          - generic [ref=e289]:
+            - checkbox [ref=e290] [cursor=pointer]
+            - generic [ref=e292]:
+              - heading "Medium Priority Task" [level=3] [ref=e293]
+              - generic [ref=e294]: Medium
+            - generic [ref=e295]:
+              - button "Edit" [ref=e296]
+              - button "Delete" [ref=e297]
+          - generic [ref=e299]:
+            - checkbox [ref=e300] [cursor=pointer]
+            - generic [ref=e302]:
+              - heading "Medium Priority Task" [level=3] [ref=e303]
+              - generic [ref=e304]: Medium
+            - generic [ref=e305]:
+              - button "Edit" [ref=e306]
+              - button "Delete" [ref=e307]
+          - generic [ref=e309]:
+            - checkbox [ref=e310] [cursor=pointer]
+            - generic [ref=e312]:
+              - heading "Edit Priority Test" [level=3] [ref=e313]
+              - generic [ref=e314]: Medium
+            - generic [ref=e315]:
+              - button "Edit" [ref=e316]
+              - button "Delete" [ref=e317]
+          - generic [ref=e319]:
+            - checkbox [ref=e320] [cursor=pointer]
+            - generic [ref=e322]:
+              - heading "Low Priority Task" [level=3] [ref=e323]
+              - generic [ref=e324]: Low
+            - generic [ref=e325]:
+              - button "Edit" [ref=e326]
+              - button "Delete" [ref=e327]
+          - generic [ref=e329]:
+            - checkbox [ref=e330] [cursor=pointer]
+            - generic [ref=e332]:
+              - heading "Low Priority Todo" [level=3] [ref=e333]
+              - generic [ref=e334]: Low
+            - generic [ref=e335]:
+              - button "Edit" [ref=e336]
+              - button "Delete" [ref=e337]
+          - generic [ref=e339]:
+            - checkbox [ref=e340] [cursor=pointer]
+            - generic [ref=e342]:
+              - heading "Low Priority Todo" [level=3] [ref=e343]
+              - generic [ref=e344]: Low
+            - generic [ref=e345]:
+              - button "Edit" [ref=e346]
+              - button "Delete" [ref=e347]
+          - generic [ref=e349]:
+            - checkbox [ref=e350] [cursor=pointer]
+            - generic [ref=e352]:
+              - heading "Low Priority Task" [level=3] [ref=e353]
+              - generic [ref=e354]: Low
+            - generic [ref=e355]:
+              - button "Edit" [ref=e356]
+              - button "Delete" [ref=e357]
+          - generic [ref=e359]:
+            - checkbox [ref=e360] [cursor=pointer]
+            - generic [ref=e362]:
+              - heading "Low Priority Task" [level=3] [ref=e363]
+              - generic [ref=e364]: Low
+            - generic [ref=e365]:
+              - button "Edit" [ref=e366]
+              - button "Delete" [ref=e367]
+          - generic [ref=e369]:
+            - checkbox [ref=e370] [cursor=pointer]
+            - generic [ref=e372]:
+              - heading "Low Priority Task" [level=3] [ref=e373]
+              - generic [ref=e374]: Low
+            - generic [ref=e375]:
+              - button "Edit" [ref=e376]
+              - button "Delete" [ref=e377]
+          - generic [ref=e379]:
+            - checkbox [ref=e380] [cursor=pointer]
+            - generic [ref=e382]:
+              - heading "Low Priority Task" [level=3] [ref=e383]
+              - generic [ref=e384]: Low
+            - generic [ref=e385]:
+              - button "Edit" [ref=e386]
+              - button "Delete" [ref=e387]
+      - generic [ref=e388]:
+        - generic [ref=e389]:
+          - generic [ref=e390]: "0"
+          - generic [ref=e391]: Overdue
+        - generic [ref=e392]:
+          - generic [ref=e393]: "36"
+          - generic [ref=e394]: Pending
+        - generic [ref=e395]:
+          - generic [ref=e396]: "0"
+          - generic [ref=e397]: Completed
+  - button "Open Next.js Dev Tools" [ref=e403] [cursor=pointer]:
+    - img [ref=e404]
+  - alert [ref=e407]
+```

@@ -1,9 +1,10 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import type { Todo } from '@/types/todo';
+import type { Todo, Priority } from '@/types/todo';
 import TodoForm from '@/components/TodoForm';
 import TodoList from '@/components/TodoList';
+import PriorityFilter from '@/components/PriorityFilter';
 
 interface TodosData {
   todos: Todo[];
@@ -20,6 +21,7 @@ export default function Home() {
     completed: [],
   });
   const [loading, setLoading] = useState(true);
+  const [priorityFilter, setPriorityFilter] = useState<Priority | 'all'>('all');
 
   const fetchTodos = async () => {
     try {
@@ -49,6 +51,16 @@ export default function Home() {
     fetchTodos();
   };
 
+  // Filter todos by priority
+  const filterTodosByPriority = (todos: Todo[]) => {
+    if (priorityFilter === 'all') return todos;
+    return todos.filter(todo => todo.priority === priorityFilter);
+  };
+
+  const filteredOverdue = filterTodosByPriority(todosData.overdue);
+  const filteredPending = filterTodosByPriority(todosData.pending);
+  const filteredCompleted = filterTodosByPriority(todosData.completed);
+
   if (loading) {
     return (
       <main className="min-h-screen p-8 bg-gray-50">
@@ -69,11 +81,19 @@ export default function Home() {
 
         <TodoForm onTodoCreated={handleTodoCreated} />
 
+        {/* Priority Filter */}
+        <div className="mt-6">
+          <PriorityFilter
+            selectedPriority={priorityFilter}
+            onChange={setPriorityFilter}
+          />
+        </div>
+
         <div className="mt-12">
           <TodoList
-            overdue={todosData.overdue}
-            pending={todosData.pending}
-            completed={todosData.completed}
+            overdue={filteredOverdue}
+            pending={filteredPending}
+            completed={filteredCompleted}
             onTodoUpdated={handleTodoUpdated}
             onTodoDeleted={handleTodoDeleted}
           />
@@ -83,19 +103,19 @@ export default function Home() {
         <div className="mt-8 flex justify-center gap-8 text-center">
           <div>
             <div className="text-3xl font-bold text-red-600">
-              {todosData.overdue.length}
+              {filteredOverdue.length}
             </div>
             <div className="text-sm text-gray-600">Overdue</div>
           </div>
           <div>
             <div className="text-3xl font-bold text-blue-600">
-              {todosData.pending.length}
+              {filteredPending.length}
             </div>
             <div className="text-sm text-gray-600">Pending</div>
           </div>
           <div>
             <div className="text-3xl font-bold text-green-600">
-              {todosData.completed.length}
+              {filteredCompleted.length}
             </div>
             <div className="text-sm text-gray-600">Completed</div>
           </div>
